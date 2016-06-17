@@ -8,7 +8,7 @@ Using [passport](http://passportjs.org/), with the [facebook strategy](https://g
 
 2. In the project, create `server/constants/secrets.js`. Within that file, export two constants: `CLIENT_ID`, which is your app's **App ID**, and `CLIENT_SECRET`, which is your app's **App Secret**.
 
-3. Add `local.me` to the **App Domains** and `http://local.me:3000` as a website to the platforms. After entering this information, hit `Save Changes` at the bottom right.
+3. Add `local.me` to the **App Domains** and `http://local.me:3000` as a website to the **Platforms**. After entering this information, hit `Save Changes` at the bottom right.
 
 5. Add `127.0.0.1 local.me` to the bottom of `etc/hosts`.
 
